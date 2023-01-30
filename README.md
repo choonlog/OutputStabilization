@@ -1,5 +1,5 @@
 # OutputStabilization
-OutputStabilization is a control algorithm that finds a control input combination that can stabilize specific output nodes of Boolean networks in a desired state. It is written in Python 3. A related paper will be published soon.
+OutputStabilization is a control algorithm that finds a control input combination that can stabilize specific output nodes of Boolean networks in a desired state. A related paper will be published soon.
 
 ## Installation
 You can simply download OutputStabilization from this git repository, while setup.py is not provided. OutputStabilization is executed on any operating system (Windows, Mac OS, Linux, etc), but Python 3.5 or higher versions must be installed to run the program.
