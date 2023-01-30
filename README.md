@@ -6,8 +6,8 @@ You can simply download OutputStabilization from this git repository, while setu
 
 ## Usage
 Write a Boolean network form as shown below in the modeltext variable at the bottom of the code, and write the output node and the desired state as True or False in the form of a dictionary in the targetDic variable.
-'''
-modeltext = """
+```
+modeltext = '''
 x01 = not x06 and not x04
 x02 = x01 or (x07 and x05) or (x03 and x02)
 x03 = x01
@@ -18,6 +18,6 @@ x07 = (x02 and x01 and x06) or (x02 and x01 and x07)
 x08 = x04 and not x02 and not x01
 x09 = x03
 x10 = x08 or (x05 and x02) or x11
-"""
-targetDic = {'x09': True, 'x10': True}
 '''
+targetDic = {'x09': True, 'x10': True}
+```
