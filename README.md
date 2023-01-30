@@ -21,3 +21,9 @@ x10 = x08 or (x05 and x02) or x11
 '''
 targetDic = {'x09': True, 'x10': True}
 ```
+
+## Output
+Control input(s) that can control the set output node to the desired state are output.
+```
+[{'x03': True, 'x11': True}, {'x01': True, 'x11': True}, {'x01': True, 'x05': True}]
+```
