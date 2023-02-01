@@ -1,5 +1,5 @@
 # OutputStabilization
-OutputStabilization is a control algorithm that finds a control input combination that can stabilize specific output nodes of Boolean networks in a desired state. A related paper will be published soon.
+OutputStabilization is a control algorithm deriving a control input combination that can stabilize specific output nodes of Boolean networks in a desired state. A relevant paper is submitted to IEEE Trans. Neural Netw. Learn. Syst.
 
 ## Installation
 You can simply download OutputStabilization from this git repository, while setup.py is not provided. OutputStabilization is executed on any operating system (Windows, Mac OS, Linux, etc), but Python 3.5 or higher versions must be installed to run the program.
@@ -23,7 +23,7 @@ targetDic = {'x09': True, 'x10': True}
 ```
 
 ## Output
-Control input(s) that can control the set output node(s) to the desired state are output.
+Control input(s) that can stabilize the prescribed output node(s) to their desired state are produced as the output of this code.
 ```
 [{'x03': True, 'x11': True}, {'x01': True, 'x11': True}, {'x01': True, 'x05': True}]
 ```
