@@ -32,10 +32,8 @@ Control input(s) that can stabilize the prescribed output node(s) to their desir
 BNGenerator is executed independently of OutputStabilization, and is a software that generates a random Boolean network using Biological Boolean logics extracted from 78 Biological Boolean networks in the Cell Collective (https://cellcollective.org/).
 
 ## Example
-It can be executed by entering the parameters of the generator function in line 44 of BNGenerator.py.
-The result is saved in the name specified by the user in line 46.
-
+It can be executed by entering the parameters of the main function in line 64 of random_Boolean_network_generator_output_node.py.
 ```
-Boolean_network = main(20, 1, 3, 2) # The arguments of main function mean the number of nodes to be included in the network, the minimum in-degree, the maximum in-degree, and the number of output nodes, respectively.
+Boolean_network = main(20, 1, 3, 2) # The parameters of main function mean the number of nodes to be included in the network, the minimum in-degree, the maximum in-degree, and the number of output nodes, respectively.
 print(Boolean_network)
 ```
